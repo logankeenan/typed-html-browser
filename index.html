@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>typed-html browser</title>
+</head>
+<body>
+<script type="module">
+    import init, { create_body } from './pkg/typed_html_browser.js';
+
+    async function run() {
+        await init();
+        document.body.innerHTML = create_body();
+    }
+
+    run();
+</script>
+</body>
+</html>

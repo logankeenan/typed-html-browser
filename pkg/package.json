@@ -1,0 +1,15 @@
+{
+  "name": "typed-html-browser",
+  "collaborators": [
+    "Logan Keenan <d.logankeenan@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "typed_html_browser_bg.wasm",
+    "typed_html_browser.js",
+    "typed_html_browser.d.ts"
+  ],
+  "module": "typed_html_browser.js",
+  "types": "typed_html_browser.d.ts",
+  "sideEffects": "false"
+}
